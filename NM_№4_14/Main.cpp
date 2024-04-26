@@ -7,7 +7,7 @@ using namespace std;
 
 double function(double x)
 {
-	return x*x;
+	return x*x*x;
 }
 
 vector<double> table_generation(int start, int step, int num_of_points)

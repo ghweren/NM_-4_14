@@ -3,5 +3,5 @@
 class InterpolationMethod abstract
 {
 public:
-	virtual double Calculation(std::vector <double> f, std::vector <double> x, double t) const = 0;
+	virtual double Calculation(std::vector <double> f, std::vector <double> x, double t) = 0;
 };

@@ -17,7 +17,7 @@ public:
 		}
 		return result;
 	}
-	double Calculation(vector <double> f, vector <double> x, double t) const
+	double Calculation(vector <double> f, vector <double> x, double t)
 	{
 		vector<double> div_diff;
 		for (int i = 1; i < x.size(); i++)

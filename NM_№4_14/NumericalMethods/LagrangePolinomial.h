@@ -3,7 +3,7 @@
 class LagrangePolinomial : public InterpolationMethod
 {
 public:
-	double Calculation(std::vector<double> f, std::vector<double> x, double t) const
+	double Calculation(std::vector<double> f, std::vector<double> x, double t)
 	{
 		std::vector<double> L;
 		for (int i = f.size() - 1; i > -1; i--)
